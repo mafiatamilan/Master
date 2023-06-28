@@ -44,7 +44,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001961559386'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Piraterequest')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "🔘 Your File Name <code>{file_name}</code>\n\n 🔘 size <code>{file_size}</code>\n\n ╭─── • ❰[PirateLinks](https://t.me/Pirate_Links)❱ • ────➤\n ┣ ▫️[𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋](https://t.me/+oLmTZktj5cQ2MWQ1)\n ┣ ▫️[𝙍𝙀𝙋𝙊𝙍𝙏](https://t.me/movieshubReport_bot) \n ╰─────── • ◆ • ───────➤")
