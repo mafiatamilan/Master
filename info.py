@@ -90,6 +90,8 @@ DOWNLOAD_TEXT_NAME = "⚡ HOW TO DOWNLOAD ⚡"
 DOWNLOAD_TEXT_URL = "https://t.me/c/1961289471/16"
 
    # Custom Caption Under Button #
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+oLmTZktj5cQ2MWQ1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Pirate_Links')
 
 CAPTION_BUTTON = "🔰 Share Me  🔰"
 
